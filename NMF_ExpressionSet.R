@@ -20,7 +20,7 @@ faijan <- cbind(shakil, t(sabiha))
 
 # Conversion of our experimental data to expression matrix 
 
-ourData <- read.csv("15geneexpressionucscxena.csv") 
+ourData <- read.csv("15geneexpression.csv") 
 ourData <- as.matrix(ourData)
 exprSet <- ExpressionSet(assayData = ourData)
 estim.r <- NMF::nmf(exprSet, 2:6, nrun=1, seed=123) 
