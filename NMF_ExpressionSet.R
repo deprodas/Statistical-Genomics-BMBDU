@@ -11,7 +11,7 @@ library(NMF)
 library(Biobase) 
 
 # Dummy data : Visualizing esGolub dataset  
- 
+
 data(esGolub) 
 
 sabiha <- exprs(esGolub) 
