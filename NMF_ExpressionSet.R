@@ -18,7 +18,7 @@ sabiha <- exprs(esGolub)
 shakil <- pData(esGolub) 
 faijan <- cbind(shakil, t(sabiha)) 
 
-# Conversion of Our Main data to expression matrix 
+# Conversion of our experimental data to expression matrix 
 
 ourData <- read.csv("15geneexpressionucscxena.csv") 
 ourData <- as.matrix(ourData)
